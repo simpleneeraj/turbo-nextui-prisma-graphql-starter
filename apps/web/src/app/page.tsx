@@ -1,14 +1,6 @@
-import { Button } from '@app/ui';
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Divider,
-  Link,
-  Image,
-} from '@app/ui';
 import NextImage from 'next/image';
+import { Card, CardBody, CardFooter, Divider, Link, Image } from '@app/ui';
+
 function Gradient({
   conic,
   className,
@@ -39,9 +31,9 @@ const LINKS = [
     description: 'Learn more about monorepos with our handbook.',
   },
   {
-    title: 'Templates',
-    href: 'https://turbo.build/repo/docs/getting-started/from-example',
-    description: 'Choose from over 15 examples and deploy with a single click.',
+    title: 'Template',
+    href: 'https://github.com/simpleneeraj/turbo-nextui-prisma-graphql-starter',
+    description: 'Select this example and deploy with a single click.',
   },
   {
     title: 'Deploy',
